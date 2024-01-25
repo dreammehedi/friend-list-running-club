@@ -1,0 +1,17 @@
+{
+  "name": "friendlist-running-club",
+  "version": "1.0.0",
+  "description": "This is friendlist running club website.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./css/main.css -w"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "tailwindcss",
+    "js"
+  ],
+  "author": "Mehedi Hassan Miraj",
+  "license": "ISC"
+}
