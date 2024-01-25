@@ -1,7 +1,7 @@
 {
   "name": "friendlist-running-club",
   "version": "1.0.0",
-  "description": "This is friendlist running club website.",
+  "description": "This is friend list running club website.",
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o ./css/main.css -w"

@@ -31,6 +31,78 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body class="font-alatsi">
+    <!-- Header -->
+    <header class="bg-white">
+      <div class="container relative">
+        <!-- navigation -->
+        <nav class="flex-between">
+          <!-- logo -->
+          <a href="./index.html">
+            <img
+              class="max-w-[140px] max-h-[140px]"
+              src="./images/logo.png"
+              alt="Run Mehedi"
+            />
+          </a>
+          <!-- mobile menu -->
+          <ul
+            id="mobilemenu"
+            class="transition-all duration-500 ease-in-out flex-start flex-col gap-4 p-4 w-[50%] h-[100vh] absolute top-0 -left-full shadow-shadow1 bg-white z-50 *:font-medium *:uppercase"
+          >
+            <li>
+              <a
+                class="transition-all duration-500 ease-linear hover:text-primary"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="transition-all duration-500 ease-linear hover:text-primary"
+                href="./about-club"
+                >About Club</a
+              >
+            </li>
+            <li>
+              <a
+                class="transition-all duration-500 ease-linear hover:text-primary"
+                href="./landing"
+                >Landing</a
+              >
+            </li>
+          </ul>
+          <!-- menu -->
+          <ul class="hidden lg:flex-between gap-4 *:font-medium *:uppercase">
+            <li>
+              <a
+                class="transition-all duration-500 ease-linear hover:text-primary"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="transition-all duration-500 ease-linear hover:text-primary"
+                href="./about-club"
+                >About Club</a
+              >
+            </li>
+            <li>
+              <a
+                class="transition-all duration-500 ease-linear hover:text-primary"
+                href="./landing"
+                >Landing</a
+              >
+            </li>
+          </ul>
+          <!-- menu icon -->
+          <i
+            id="menubtn"
+            class="block lg:hidden font-medium text-3xl cursor-pointer transition-all duration-500 ease-linear hover:text-primary ri-menu-4-line"
+          ></i>
+        </nav>
+      </div>
+    </header>
     <!-- main js add -->
     <script src="./js/main.js"></script>
   </body>
