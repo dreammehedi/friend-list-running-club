@@ -32,8 +32,8 @@
   </head>
   <body class="font-alatsi">
     <!-- Header -->
-    <header class="bg-white">
-      <div class="container relative">
+    <header class="bg-white relative">
+      <div class="container">
         <!-- navigation -->
         <nav class="flex-between">
           <!-- logo -->
@@ -47,7 +47,7 @@
           <!-- mobile menu -->
           <ul
             id="mobilemenu"
-            class="transition-all duration-500 ease-in-out flex-start flex-col gap-4 p-4 w-[50%] h-[100vh] absolute top-0 -left-full shadow-shadow1 bg-white z-50 *:font-medium *:uppercase"
+            class="transition-all duration-500 ease-in-out flex-start flex-col gap-4 p-4 w-[50%] h-[100vh] absolute top-0 -left-full shadow-shadow1 bg-white z-[999999] *:font-medium *:uppercase"
           >
             <li>
               <a
@@ -103,6 +103,24 @@
         </nav>
       </div>
     </header>
+
+    <!-- Banner -->
+    <section
+      class="relative z-0 flex justify-end items-end lg:flex-center bg-banner bg-center bg-cover bg-no-repeat py-10 min-h-[90vh]"
+    >
+      <div class="container">
+        <div
+          class="flex-center text-center flex-col w-[280px] h-[280px] lg:w-[450px] lg:h-[450px] rounded-full bg-primary text-white"
+        >
+          <h1>How to Start Running</h1>
+          <button
+            class="btn bg-white text-black hover:text-primary hover:bg-white/90"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+    </section>
     <!-- main js add -->
     <script src="./js/main.js"></script>
   </body>

@@ -23,6 +23,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage:{
+        banner: 'url(../images/4.jpg)'
+      },
       colors: {
         'primary': '#F26F43',
         'black': '#111111',

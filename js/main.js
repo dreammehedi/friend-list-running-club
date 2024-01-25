@@ -4,7 +4,7 @@ let mobilemenu = document.getElementById("mobilemenu");
 menubtn.onclick = function() {menuShowHide()};
 function menuShowHide() {
     // show menu
-    mobilemenu.classList.toggle("-left-0");
+    mobilemenu.classList.toggle("!-left-0");
     // button icon change
     if (menubtn.classList.contains("ri-menu-4-line")) {
         menubtn.classList.add("ri-close-line");

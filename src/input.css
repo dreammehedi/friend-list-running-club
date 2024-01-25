@@ -11,6 +11,9 @@
   h6 {
     @apply font-raleway;
   }
+  h1 {
+    @apply text-3xl md:text-4xl lg:text-6xl font-extrabold;
+  }
   img {
     @apply w-full h-auto object-cover;
   }
@@ -28,5 +31,8 @@
   }
   .flex-between {
     @apply flex justify-between items-center;
+  }
+  .btn {
+    @apply uppercase text-sm md:text-base font-bold font-raleway rounded-full px-8 md:px-10 py-3 md:py-4 my-4 flex justify-center items-center text-center transition-all duration-300 ease-linear;
   }
 }
